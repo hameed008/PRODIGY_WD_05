@@ -50,7 +50,7 @@ const TempMainDisplay = () => {
         <div className='flex justify-between text-white bg-emerald-950 shadow-lg rounded-2xl'>
 
           <div className='p-4  '>
-            <div className='flex items-center justify-around px-5 lg:px-10 min-w-16 h-8 lg:min-w-[220px] lg:h-10 bg-emerald-500 rounded-2xl text-black'>
+            <div className='flex items-center justify-center gap-2 px-2 lg:px-5 min-w-16 h-8 lg:min-w-[200px] lg:h-10 bg-emerald-500 rounded-2xl text-black'>
               <i className="fa-solid fa-location-dot lg:mr-0 text-[16px] lg:text-xl"></i>
               <p className=' text-center text-[16px] lg:text-xl'>{(weatherData.location.name).toUpperCase()}</p>
             </div>
