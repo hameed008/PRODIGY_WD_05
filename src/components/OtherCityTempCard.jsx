@@ -15,7 +15,7 @@ const OtherCityTempCard = () => {
 
             <div className='flex items-center' key={i}>
               <h1 className='text-3xl'>{weather.current.temp_c}<sup>°</sup></h1>
-              <p className='text-gray-400 mt-5 text-sm'><span>H:{weather.current.temp_c + 1}<sup>°</sup> and </span> <span>L:{weather.current.temp_c - 1}<sup>°</sup></span></p>
+              <p className='text-gray-400 mt-5 text-sm'><span>H:{(weather.current.temp_c + 1).toFixed(2)}<sup>°</sup> and </span> <span>L:{(weather.current.temp_c - 1).toFixed(2)}<sup>°</sup></span></p>
             </div>
 
             <div className='flex items-center justify-between mt-4' key={weather.location.name}>
