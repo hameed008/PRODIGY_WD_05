@@ -37,7 +37,7 @@ const TempHighlight = () => {
           <div className='bg-emerald-950 rounded-2xl p-2 pl-3'>
             <h1 className='text-md font-medium '>Chance Of Rrain</h1>
             <div className='w-100% flex items-center justify-center mt-4'>
-              <img src="src\assets\rain.png" alt="wind status image" className='w-[50px] text-center' />
+              <img src="rain.png" alt="wind status image" className='w-[50px] text-center' />
             </div>
             <div className='flex items-center justify-between mt-4'>
               <h1 className='font-bold'>{chanceOfRain} <span className='text-gray-500'>%</span></h1>
@@ -51,7 +51,7 @@ const TempHighlight = () => {
           <div className='bg-emerald-950 rounded-2xl p-2 pl-3'>
             <h1 className='text-md font-medium'>UV Index</h1>
             <div className='w-100% flex items-center justify-center mt-4'>
-              <img src="src\assets\uv-index.png" alt="" className='w-[50px] text-center' />
+              <img src="uv-index.png" alt="" className='w-[50px] text-center' />
             </div>
             <div className='flex justify-between mt-4'>
               <h1 className='font-bold'>{weatherData.current.uv}/10</h1>
@@ -61,7 +61,7 @@ const TempHighlight = () => {
           <div className='bg-emerald-950 rounded-2xl p-2 pl-3'>
             <h1 className='text-md font-medium'><i className="fa-solid fa-wind mr-2"></i>Wind Status</h1>
             <div className='w-100% flex items-center justify-center mt-4'>
-              <img src="src\assets\audio-waves.png" alt="wind status image" className='w-[50px] text-center' />
+              <img src="audio-waves.png" alt="wind status image" className='w-[50px] text-center' />
             </div>
 
             <div className='flex justify-between mt-4'>
@@ -73,7 +73,7 @@ const TempHighlight = () => {
           <div className='bg-emerald-950 rounded-2xl p-2 pl-3'>
             <h1 className='text-md font-medium '><i className="fa-solid fa-fire-flame-curved mr-2"></i>Humidity</h1>
             <div className='w-100% flex items-center justify-center mt-4'>
-              <img src="src\assets\rainy-day.png" alt="wind status image" className='w-[50px] text-center' />
+              <img src="rainy-day.png" alt="wind status image" className='w-[50px] text-center' />
             </div>
             <div className='flex items-center justify-between mt-4'>
               <h1 className='font-bold'>{weatherData.current.humidity} <span className='text-gray-500'>%</span></h1>

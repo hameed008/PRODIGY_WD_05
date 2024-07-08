@@ -20,8 +20,8 @@ const TodayTempStats = () => {
                 <div key={index} className=" min-w-[60px] min-h-[130px] text-center mb-8 rounded-2xl bg-gradient-to-r from-[#021F19] to-[#021F19] pt-2">
                   <p>{index + 1} <span className='text-gray-500'>PM</span></p>
                   <div className='flex flex-col items-center mt-5'>
-                    <img src="src\assets\sun.png" alt="" className='w-[20px] mb-1' />
-                    <p className='text-xl'>20 <sup>°</sup></p>
+                    <img src="sun.png" alt="" className='w-[20px] mb-1' />
+                    <p className='text-xl'>{(weatherData.current.temp_c + index - 1).toFixed(0)} <sup>°</sup></p>
                   </div>
                 </div>
               ))}
@@ -37,7 +37,7 @@ const TodayTempStats = () => {
                 <h1 className='text-4xl ml-[10px] mt-[15px]'>{(weatherData.current.temp_c) + 2}<sup>°</sup></h1>
               </div>
 
-              <img src="src\assets\cloudy.png" alt="" className='w-[50px] h-[50px] -mt-[40px]' />
+              <img src="cloudy.png" alt="" className='w-[50px] h-[50px] -mt-[40px]' />
             </div>
           </div>
 
